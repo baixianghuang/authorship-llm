@@ -6,7 +6,7 @@ This repository contains the code and data used in EMNLP 2024 Findings paper tit
 
 
 As illustrated in figure below, LLMs correctly identifies that the two input texts are written by the same author and provides explanations. Linguistic features detected by the model are highlighted in different colors.
-<img src="https://github.com/authorship-attribution-llm/authorship-llm-survey/blob/main/data/case.png" width=80%>
+<img src="https://github.com/baixianghuang/authorship-llm/blob/main/data/case.png" width=80%>
 
 
 ## BibTex
