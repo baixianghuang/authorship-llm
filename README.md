@@ -1,12 +1,21 @@
 # Can Large Language Models Identify Authorship?
 
-## Overview
-This repository contains the code and data used in EMNLP 2024 Findings paper titled "Can Large Language Models Identify Authorship?" Our research focuses on exploring the capabilities of Large Language Models (LLMs) in authorship analysis tasks, specifically authorship verification and authorship attribution. The primary aim is to investigate whether LLMs can accurately identify the authorship of texts, which is pivotal for verifying content authenticity and mitigating misinformation.\
-[[arXiv]](https://arxiv.org/pdf/2403.08213) [[Project Website]](https://llm-authorship.github.io/#canllm-identify-authorship)
+- **Overview**: This repo contains the code, results and data used in EMNLP 2024 Findings paper titled "Can Large Language Models Identify Authorship?" 
+
+- **TLDR**: We discover LLMs' strong capacities of performing authorship verification and attribution in a zero-shot way, which have surpassed the state-of-the-art supervised models, and providing explanations through the role of linguistic features.
+
+- [[arXiv]](https://arxiv.org/pdf/2403.08213) [[Project Website]](https://llm-authorship.github.io/#canllm-identify-authorship)
+
+This work focuses on exploring the capabilities of Large Language Models (LLMs) in authorship analysis tasks, specifically authorship verification and authorship attribution. The primary aim is to investigate whether LLMs can accurately identify the authorship of texts, which is pivotal for verifying content authenticity and mitigating misinformation.\
 
 
-As illustrated in figure below, LLMs correctly identifies that the two input texts are written by the same author and provides explanations. Linguistic features detected by the model are highlighted in different colors.
-<img src="https://github.com/baixianghuang/authorship-llm/blob/main/data/case.png" width=80%>
+
+A Comparison Between <b>Linguistically Informed Prompting (LIP)</b> and other Prompting Strategies for Authorship Verification. 
+"Analysis" and "Answer" are the output of prompting GPT-4. Only <b>LIP</b> strategy correctly identifies that the given two texts 
+belong to the same author. Text colored in <span style="background-color: rgb(255, 204, 168);">orange</span> highlights the differences compared to vanilla prompting with no guidance. 
+Text colored in <span style="color: rgb(68, 163, 247);">Blue</span> indicates the linguistically informed reasoning process. <span style="background-color: rgb(212, 235, 255);">Blue</span> text represents the text referenced from 
+the original documents.
+<img src="https://github.com/baixianghuang/authorship-llm/blob/main/data/case.png" width=100%>
 
 
 ## BibTex
