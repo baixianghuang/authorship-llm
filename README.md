@@ -2,7 +2,8 @@
 
 - **Overview**: This repo contains the code, results and data used in EMNLP 2024 Findings paper titled "Can Large Language Models Identify Authorship?" 
 
-- **TLDR**: We discover LLMs' strong capacities of performing authorship verification and attribution in a zero-shot way, which have surpassed the state-of-the-art supervised models, and providing explanations through the role of linguistic features.
+- **TLDR**: We propose Linguistically Informed Prompting (LIP) strategy, which offers in-context linguistic guidance, to boost LLMs' reasoning capacity for <i>authorship verification</i> and <i>attribution</i> tasks, while also providing natural language explanations.
+
 
 - [[arXiv]](https://arxiv.org/pdf/2403.08213) [[Project Website]](https://llm-authorship.github.io/#canllm-identify-authorship)
 
